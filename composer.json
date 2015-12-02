@@ -1,0 +1,38 @@
+{
+	"name":"cliffparnitzky/tiny-mce-setup-all",
+	"description":"Special TinyMCE setup which creates the toolbars with all known buttons.",
+	"keywords":["contao","tinymce","tiny editor","tinymce setup","setup all","tinymce4"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/cliffparnitzky/TinyMceZUpAll/issues",
+		"source":"https://github.com/cliffparnitzky/TinyMceZUpAll"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.3.0,<3.6",
+		"contao-community-alliance/composer-plugin":"~2.0",
+		"cliffparnitzky/tiny-mce-bundle-all":"~2.10"
+	},
+	"conflict": {
+		"contao/core":"3.4.0,3.4.1,3.4.2"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/TinyMceZUpAll":"system/modules/TinyMceZUpAll"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
